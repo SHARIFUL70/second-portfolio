@@ -1,0 +1,61 @@
+
+.nav-container{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(121, 116, 116);
+    padding: 15px;
+    align-items: center;
+}
+.nav-manu{
+    list-style: none;
+    display: flex;
+    
+    
+}
+.nav-manu li{
+    margin-right: 23px;
+    font-size: 25px;
+    color: white;
+}
+.banner{
+    background-image: url("asset/image/background.jpg"), linear-gradient(rgb(81, 75, 75), rgb(55, 55, 50));
+    background-blend-mode: overlay;
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner-description{
+    text-align: center;
+}
+.banner-description p{
+    width: 343px;
+    margin: auto;
+    color: white;
+    font-size: 25px;
+}
+.banner-description h1{
+    font-size: 50px;
+    margin: 23px;
+    color: white;
+}
+.banner-description span{
+    color: red;
+}
+.btn{
+    padding: 20px 20px 20px;
+    margin-top: 12px;
+    border: none;
+    font-size: 18px;
+    margin-right: 12px;
+
+}
+.red{
+    background-color: red;
+    color: white;
+}
+.red:hover{
+    background-color: beige;
+}
