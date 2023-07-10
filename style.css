@@ -113,4 +113,35 @@
 height: 70px;
 gap: 23px;
 }
+.contact{
+    width: 800px;
+    height: 150px;
+    background-color: red;
+    display: flex;
+    padding: 15px;
+    align-items: center;
+    margin: auto;
+    gap: 17px;
+    color: white;
+    border-radius: 5px;
+    margin-top: -24px;
+}
+.phone img{
+    width: 80px;
+}
+.phone{
+    display: flex;
+    gap: 13px
+    ;
+}
+.phone p{
+    
+}
+.contact-details{
+    display: flex;
+    gap: 25px
+    ;
+    
+   
+}
 
