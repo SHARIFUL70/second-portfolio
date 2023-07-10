@@ -50,6 +50,7 @@
     border: none;
     font-size: 18px;
     margin-right: 12px;
+    border-radius: 4px;
 
 }
 .red{
@@ -68,8 +69,8 @@
     align-items: center;
     
 }
-.service-left p{
-    
+.service-left h1{
+   font-size: 40px;
 
 }
 .all-box{
@@ -85,9 +86,13 @@
     padding: 20px;
     margin-right: 5px;
     margin-bottom: 5px;
+    
 }
 .icon{
     width: 122px;
     height: 100px;
+}
+.service-left span{
+    color: red;
 }
 
