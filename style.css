@@ -3,7 +3,7 @@
     display: flex;
     justify-content: space-around;
     background-color: rgb(121, 116, 116);
-    padding: 15px;
+    /* padding: 15px; */
     align-items: center;
 }
 .nav-manu{
@@ -11,11 +11,15 @@
     display: flex;
     
     
+    
 }
 .nav-manu li{
     margin-right: 23px;
     font-size: 25px;
     color: white;
+}
+li:hover{
+    background-color: blue;
 }
 .banner{
     background-image: url("asset/image/background.jpg"), linear-gradient(rgb(81, 75, 75), rgb(55, 55, 50));
